@@ -12,6 +12,13 @@
                 "key": "blue"
             },
             {
+                "url": [
+                    "assets/sound/boardCreate.wav"
+                ],
+                "type": "audio",
+                "key": "boardCreate"
+            },
+            {
                 "url": "assets/ButtonStart.png",
                 "type": "image",
                 "key": "ButtonStart"
@@ -35,6 +42,13 @@
                 "url": "assets/gems/green.png",
                 "type": "image",
                 "key": "green"
+            },
+            {
+                "url": [
+                    "assets/sound/noMove.wav"
+                ],
+                "type": "audio",
+                "key": "noMove"
             },
             {
                 "url": "assets/gems/purple.png",
