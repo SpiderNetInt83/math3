@@ -34,8 +34,16 @@ export default class ArcadeMode extends Phaser.Scene {
 		this.editorCreate();
 
 		// Создаём доску
-		this.board = new Board(this, { rows: 6, cols: 6, colors: 3 });
-		this.board.createBoard(); // ← тут обязательно скобки
+		const cfg: BoardConfig = {
+			rows: 6,
+			cols: 6,
+			colors: 4,       // или ['red','green','blue','yellow']
+			marginX: 24,
+			offsetYRatio: 0.11
+		};
+
+		this.board = new Board(this, cfg); // ← обязательно сохранить в поле
+		this.board.create();  
 	}
 
 	/* END-USER-CODE */
