@@ -1,0 +1,64 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
+                "url": "assets/gems/blue.png",
+                "type": "image",
+                "key": "blue"
+            },
+            {
+                "url": "assets/ButtonStart.png",
+                "type": "image",
+                "key": "ButtonStart"
+            },
+            {
+                "url": "assets/forest.jpg",
+                "type": "image",
+                "key": "forest"
+            },
+            {
+                "url": "assets/FufuSuperDino.png",
+                "type": "image",
+                "key": "FufuSuperDino"
+            },
+            {
+                "url": "assets/GameLogo.png",
+                "type": "image",
+                "key": "GameLogo"
+            },
+            {
+                "url": "assets/gems/green.png",
+                "type": "image",
+                "key": "green"
+            },
+            {
+                "url": "assets/gems/purple.png",
+                "type": "image",
+                "key": "purple"
+            },
+            {
+                "url": "assets/gems/red.png",
+                "type": "image",
+                "key": "red"
+            },
+            {
+                "url": "assets/gems/yellow.png",
+                "type": "image",
+                "key": "yellow"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false,
+        "visible": true
+    }
+}
